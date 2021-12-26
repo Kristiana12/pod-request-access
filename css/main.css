@@ -47,7 +47,7 @@ body {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)),
     url(../assets/mobile/image-host.jpg) no-repeat center/cover;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container__bg-img {
@@ -174,8 +174,8 @@ footer {
   display: none;
 }
 
-/**************** MEDIA max-width: 375px *****************/
-@media screen and (max-width: 375px) {
+/**************** MEDIA max-width: 365px *****************/
+@media screen and (max-width: 365px) {
   ul.podcast__partners {
     display: flex;
     flex-direction: column;
@@ -287,7 +287,7 @@ footer {
   footer {
     position: absolute;
     display: block;
-    bottom: 0;
+    top: 860px;
   }
 }
 

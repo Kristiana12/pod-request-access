@@ -53,8 +53,13 @@ body {
 .container__bg-img {
   display: none;
 }
+
 .podcast__logo {
   padding: 3.875rem 0 3.562rem;
+}
+
+.podcast {
+  padding-bottom: 2.5rem;
 }
 
 .podcast__box {
